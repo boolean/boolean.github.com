@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.1/hack.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.1/dark-grey.css">
+    <style>
+      .main {
+          padding: 20px 10px;
+      }
+
+      .hack h1 {
+          padding-top: 0;
+      }
+
+      footer.footer {
+          border-top: 1px solid #ccc;
+          margin-top: 80px;
+          margin-top: 5rem;
+          padding: 48px 0;
+          padding: 3rem 0;
+      }
+
+      img {
+          max-width: 100%;
+          padding: 1em;
+      }
+     </style>
+  </head>
+  <body class="hack dark-grey">
+    <div class="container">
+      <header>
+        <p><a href="/">Fernando Sáenz</a> - <a href="/contact">Contact</a> - <a href="/resume">Resume</a>
+    </header>
+      <div class="snowframe">
+        <div class="grid">
+          <div class="cell -3of12 content">
+
+          </div>
+          <div class="cell -9of12 content">
+            {{ content }}
+          </div>          
+        </div>
+      </div>
+      <footer>
+        <blockquote>Copyright 2020 Fernando Sáenz.</blockquote>
+      </footer>
+    </div>
+  </body>
+</html>
