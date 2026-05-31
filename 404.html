@@ -1,24 +1,10 @@
 ---
 layout: default
+title: 404 — not found
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<span class="prompt"><span class="user">fernando@boolean</span>:<span class="path">~</span>$ <span class="cmd">cat {{ page.path | default: "page" }}</span></span>
+<h1>404<span class="cursor"></span></h1>
+<p class="out">cat: that file does not exist on this machine.</p>
+<p class="meta">The page you were looking for couldn't be found.</p>
+<p><a href="/">cd ~ &nbsp;·&nbsp; back to home</a></p>

@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title : Fernando Sáenz
-tagline: Site Tagline
-description:
+tagline: Software Engineer & Engineering Leader
+description: Senior Software Engineer & Engineering Leader — 17+ years building mission-critical, high-availability systems across fintech and product.
 author: Fernando Sáenz
 email : s.boolean@gmail.com
 github_username: boolean
